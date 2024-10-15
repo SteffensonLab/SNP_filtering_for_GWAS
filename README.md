@@ -1,4 +1,4 @@
-Filtering a variant call file in preparation for GWAS
+# Filtering a variant call file in preparation for GWAS
 #Commands used to filter the original variant call file to yield a robust and computationally manageable set up of single nucleotide polymorphisms for genome-wide association mapping using GAPIT
 #Scripts used for the WBDC whole-genome sequencing project.
 First converted heterozygote calls to homozygote calls (since is inbred diploid) by replacing 0/1 and 1/0 genotype calls with ./. using a simple sed stream editor script (convert_hets_to_missing_vcf.sh).
